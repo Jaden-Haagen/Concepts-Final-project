@@ -7,7 +7,7 @@ This project required all neighbor cells to be calculated manually and we could 
 When I first wrote this program I used a 1d array to store the matrix due to its simplicity and I didn't fully understand 2d arrays in python at the time. 
 After I learning more python and using it everyday in an internship I rewrote the code to run with a 2d array instead. This significantly decreased the time required to run the program especially on large matrices such as 10000x10000.
 
-#Running the code
+### Running the code
 The code takes command line arguments following this format
 -i {input_file} -o {output_file} -p {number_threads}
 
